@@ -16,7 +16,6 @@ public class Dice {
         for (int i = 1; i <=6&&i<=target; i++) {
             dice(p+i,target-i);
         }
-
     }
     static ArrayList<String> diceReturn(String p, int target){
         if(target ==0){
