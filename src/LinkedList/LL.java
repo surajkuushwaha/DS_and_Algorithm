@@ -101,6 +101,10 @@ public class LL {
         tail = node;
         size += 1;
     }
+//    ~~~~~~~~~~~~~~~~~Recursion~~~~~~~~~~~~~~~~~~~~~~~~~~
+    public void insertRec(int val, int index){
+
+    }
 
     public void display() {
         Node temp = head;
