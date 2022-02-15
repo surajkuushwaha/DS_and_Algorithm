@@ -2,7 +2,7 @@ package Pattern.CodingBlocks;
 
 public class Pattern1 {
     public static void main(String[] args) {
-        pattern10(5);
+        pattern12(5);
     }
 
     //
@@ -192,6 +192,12 @@ public class Pattern1 {
 
         }
     }
+//
+    //		*
+    //	*		*
+    //*				*
+    //	*		*
+    //		*
 
     static void pattern10(int n) {
         int outer = n / 2;
@@ -217,4 +223,49 @@ public class Pattern1 {
             System.out.println();
         }
     }
+//
+//0
+//1	    1
+//2	    3	5
+//8	    13	21	34
+//55	89	144	233	377
+
+    static void pattern11(int n) {
+        int num1 = 0, num2 = 1;
+        for (int i = 0; i < n; i++) {
+            for (int k = 0; k <= i; k++) {
+                System.out.print(num1 + "\t");
+                int temp = num1 + num2;
+                num1 = num2;
+                num2 = temp;
+            }
+            System.out.println();
+        }
+    }
+
+    //
+//1
+//1	1
+//1	2	1
+//1	3	3	1
+//1	4	6	4	1
+    static void pattern12(int n) {
+        for (int i = 0; i < n; i++) {
+            int icj = 1;
+            for (int j = 0; j <= i; j++) {
+                System.out.print(icj + "\t");
+                int icjp1 = icj * (i - j) / (j + 1);
+                icj = icjp1;
+            }
+            System.out.println();
+        }
+    }
+
+    static void pattern13(int n) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + "\t*\t" + i + "\t=\t" + (n * i));
+        }
+
+    }
+
 }
