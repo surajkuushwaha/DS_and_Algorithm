@@ -7,7 +7,7 @@ class BinarySearch {
         System.out.print("search:" + binarySearch(arr, 2));
 
     }
-    psv
+
 
     static int binarySearch(int[] arr, int key) {
         int start = 0;
