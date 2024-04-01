@@ -2,7 +2,7 @@
 - 👀 I’m interested in Full stack development
 - 🌱 I’m currently learning Data structure and algo
 - 💞️ I’m looking to collaborate on OpenSource Projects
-- 📫 linkedin.com/suraj--kushwaha/
+- 📫 linkedin.com/surajkuushwaha/
 
 <!---
 cx-suraj/cx-suraj is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
